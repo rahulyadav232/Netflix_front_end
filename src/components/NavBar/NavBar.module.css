@@ -1,0 +1,41 @@
+.nav_bar {
+    height: 8vh;
+    width: 100vw;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color : wheat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top : 0;
+    left: 0;
+    z-index: 100; 
+ }
+
+ .nav_logo {
+    height: 3rem;
+    margin-right: 1rem;
+ }
+
+ .nav_left {
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+ }
+
+ .nav_right {
+    margin-right: 4rem;
+ }
+
+ .nav_links a {
+    color:  white;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.5s;
+ }
+
+ .nav_links a:hover {
+    color: rgb(156, 156, 156);
+}

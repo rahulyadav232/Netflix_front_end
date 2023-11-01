@@ -1,0 +1,105 @@
+.header {
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url("https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfB_3OdRtaz66PnsryT47lx0db9ALFEBkiiRwf0sCaZ8-QKE1CEb6x3BGo9D5u7rQ4aDLUJyPSiXHt9GAmTBjX3GcNyU1EhW6sqn.webp?r=50f");
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px -49px 36px -12px rgba(0, 0, 0, 0.75);
+    position: relative;
+  }
+  
+  .header_inner_shadow {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .header_content {
+    height: 100vh;
+  
+    display: flex;
+    padding-left: 4rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header_billboard img {
+    width: 23vw;
+  }
+  
+  .header_billboard {
+    position: relative;
+    margin-bottom: 1.2vw;
+  }
+  
+  header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .header_description {
+    color: white;
+    width: 50%;
+    height: 10vh;
+    text-overflow: clip;
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    margin-bottom: 0.1vw;
+    position: relative;
+  }
+  
+  .header_button {
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 2.5rem;
+    margin-top: 0.6rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .header_buttons {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .header_button svg {
+    margin-right: 0.5rem;
+  }
+  
+  .play_button {
+   
+    background-color: #fff;
+    color: #000;
+    margin-right: 1rem;
+  }
+  
+  .play_button svg {
+    fill: #000;
+  }
+  
+  .play_button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .my_list_button {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: #fff;
+  }
+  
+  .my_list_button:hover {
+    background-color: rgba(109, 109, 110, 0.4);
+  }

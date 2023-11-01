@@ -1,0 +1,36 @@
+.card_wrapper {
+    height: 100%;
+    margin-right: 1rem;
+    min-width: 23rem;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.5rem;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    background-color: #111;
+  }
+  
+  .card_wrapper img {
+    height: 130px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .card_wrapper:hover {
+    z-index: 3;
+    transform: scale(1.5);
+  }
+  
+  .card_info {
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    font-weight: 500;
+    font-size: 1vw;
+  }
+  
+  .card_info div {
+    margin-top: 10px;
+  }
